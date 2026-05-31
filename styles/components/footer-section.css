@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}

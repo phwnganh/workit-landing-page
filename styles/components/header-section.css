@@ -1,0 +1,21 @@
+.header{
+    background-color: var(--color-purple-900);
+    padding: 56px 80px 0;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header__apply{
+    font-size: var(--text-preset-5);
+    line-height: var(--text-preset-5);
+    font-weight: var(--font-preset-5);
+    font-family: Manrope, sans-serif;
+    color: var(--color-white);
+    border-bottom: 3px solid var(--color-green);
+}
+

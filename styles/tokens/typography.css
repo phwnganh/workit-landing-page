@@ -1,0 +1,20 @@
+:root{
+    --text-preset-1: 80px;
+    --leading-preset-1: 100%;
+    --font-preset-1: 600;
+
+    --text-preset-2: 56px;
+    --leading-preset-2: 120%;
+    --font-preset-2: 600;
+
+    --text-preset-3: 32px;
+    --leading-preset-3: 120%;
+    --font-preset-3: 600;
+
+    --text-preset-4: 18px;
+    --leading-preset-4: 180%;
+
+    --text-preset-5: 18px;
+    --leading-preset-5: 150%;
+    --font-preset-5: 700;
+}
