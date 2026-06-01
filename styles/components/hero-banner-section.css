@@ -37,6 +37,12 @@
     font-family: Manrope, sans-serif;
 }
 
+.hero__cta-btn:hover{
+    background-color: transparent;
+    outline: 2px solid var(--color-green);
+    color: var(--color-green);
+}
+
 .hero-banner{
     margin-top: -220px;
     position: relative;
@@ -64,10 +70,25 @@
     .hero-section{
         background-position: left -230px top 50px, right -100px bottom 100px;
     }
+
+    .hero__container{
+        padding: 56px 44px 0;
+    }
+
+    .hero-banner{
+        padding: 0 44px;
+    }
 }
 
 @media (max-width: 576px) {
+    .hero-section{
+        padding: 0;
+    }
+    .hero__container{
+        padding: 56px 20px 144px;
+    }
     .hero-banner{
+        padding: 50px 20px 0 20px;
         margin-top: -120px;
     }
 

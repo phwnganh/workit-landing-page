@@ -3,6 +3,11 @@
     padding: 56px 80px 0;
 }
 
+.header-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .header-wrapper{
     display: flex;
     flex-direction: row;
@@ -17,5 +22,22 @@
     font-family: Manrope, sans-serif;
     color: var(--color-white);
     border-bottom: 3px solid var(--color-green);
+}
+
+.header__apply:hover{
+    color: var(--color-green);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header{
+        padding: 32px 44px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .header{
+        padding: 32px 20px 0;
+    }
 }
 

@@ -1,5 +1,7 @@
 .features-section{
     margin-top: 88px;
+    padding-bottom: 144px;
+    background-color: var(--color-purple-100);
 }
 .features-container{
     display: flex;
@@ -47,8 +49,12 @@
 }
 
 @media (max-width: 768px) {
+    .features-section{
+        padding-bottom: 0;
+    }
     .features-container{
         flex-direction: column;
+        padding: 56px 44px 44px;
     }
     .feature-card{
         width: 100%;
@@ -59,5 +65,25 @@
     }
     .feature-card__description{
         text-align: start;
+    }
+}
+
+@media (max-width: 576px) {
+    .features-section{
+        margin-top: 0;
+    }
+    .features-container {
+        padding: 64px 20px;
+    }
+    .feature-card{
+        gap: 24px;
+        flex-direction: column;
+    }
+    .feature-card__body{
+        gap: 16px;
+        align-items: center;
+    }
+    .feature-card__description{
+        text-align: center;
     }
 }
