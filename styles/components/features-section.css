@@ -1,6 +1,5 @@
 .features-section{
-    margin-top: 88px;
-    padding-bottom: 144px;
+    padding: 88px 0 144px;
     background-color: var(--color-purple-100);
 }
 .features-container{
@@ -84,7 +83,7 @@
         gap: 16px;
         align-items: center;
     }
-    .feature-card__description{
+    .feature-card__title, .feature-card__description{
         text-align: center;
     }
 }
