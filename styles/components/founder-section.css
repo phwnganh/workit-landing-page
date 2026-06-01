@@ -46,6 +46,7 @@
     background-color: var(--color-green);
     font-weight: var(--font-preset-5);
     padding: 12px 32px;
+    align-self: start;
 }
 
 .founder__cta-btn:hover{
@@ -67,13 +68,25 @@
     }
     .founder-container{
         padding: 112px 44px 0;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .founder__image-wrapper{
+        align-self: start;
+        transform: translateY(-40px);
+    }
+    .founder{
+        width: 100%;
+        height: auto;
+        display: block;
     }
     .founder__content{
         padding: 48px;
-        transform: translateY(20px);
+        margin-left: -60px;
+        transform: translateY(80px);
     }
     .founder__pattern-3{
-        bottom: -150px;
+        bottom: -200px;
     }
 }
 
@@ -93,7 +106,7 @@
 
     .founder__content{
         padding: 32px;
-        margin-top: -100px;
+        margin-top: -200px;
         margin-left: 0;
     }
     .founder__pattern-3{
@@ -101,5 +114,9 @@
     }
     .founder__description{
         text-align: center;
+    }
+
+    .founder__cta-btn{
+        align-self: center;
     }
 }
