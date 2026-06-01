@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 1.3fr;
     align-items: end;
     position: relative;
+    margin: 0 80px;
 }
 
 .founder__image-wrapper{
@@ -59,7 +60,7 @@
     position: absolute;
     z-index: 3;
     right: 50px;
-    bottom: -80px;
+    bottom: -100px;
 }
 
 @media (max-width: 768px) {
@@ -69,6 +70,7 @@
     .founder-container{
         padding: 112px 44px 0;
         grid-template-columns: 1fr 1.5fr;
+        margin: 0;
     }
 
     .founder__image-wrapper{
@@ -98,6 +100,7 @@
         padding: 0;
         grid-template-columns: 1fr;
         align-items: center;
+        margin: 0;
     }
 
     .founder__title{
