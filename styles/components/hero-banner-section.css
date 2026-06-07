@@ -4,7 +4,8 @@
     background-image: url('/assets/images/bg-pattern-1.svg'), url("/assets/images/bg-pattern-2.svg");
     background-repeat: no-repeat;
     background-position: left -100px top 50px, right -50px bottom 100px;
-
+    border-bottom-left-radius: 50% 8%;
+    border-bottom-right-radius: 50% 8%;
 }
 
 .hero__content{
